@@ -1,0 +1,162 @@
+INSERT INTO cost_records_center(
+    name,
+    cost_abbr,
+    level,
+    cost_full_name,
+    state,
+    region,
+    exclude_alerts,
+    system_id,
+    name_coustomer_number,
+    name_coustomer,
+    name_location_number,
+    name_location,
+    name_post,
+    external_id,
+    payroll_code,
+    address_1,
+    city,
+    address_state,
+    zipcode
+)
+VALUES
+    -- 1
+    (
+        'Mumbai HQ','CC1','High','Mumbai Headquarters',
+        'Maharashtra','West',0,1001,'CUST-101','Rahul Sharma',
+        'LOC-101','Andheri Branch','400053',
+        20001,9001,'SV Road','Mumbai','MH','400053'
+    ),
+    -- 2
+    (
+        'Bengaluru Tech','CC2','Medium','Bengaluru Tech Park',
+        'Karnataka','South',1,1002,'CUST-102','Priya Reddy',
+        'LOC-102','Whitefield','560066',
+        20002,9002,'ITPL Road','Bengaluru','KA','560066'
+    ),
+    -- 3
+    (
+        'Delhi Corporate','CC3','Low','Delhi Corporate Office',
+        'Delhi','North',0,1003,'CUST-103','Amit Khanna',
+        'LOC-103','Connaught Place','110001',
+        20003,9003,'Barakhamba Rd','New Delhi','DL','110001'
+    ),
+    -- 4
+    (
+        'Hyderabad IT','CC4','Medium','Hyderabad IT Zone',
+        'Telangana','South',0,1004,'CUST-104','Sneha Rao',
+        'LOC-104','Gachibowli','500032',
+        20004,9004,'Hitech City Rd','Hyderabad','TS','500032'
+    ),
+    -- 5
+    (
+        'Chennai Port','CC5','High','Chennai Port Facility',
+        'Tamil Nadu','South',1,1005,'CUST-105','Karthik Iyer',
+        'LOC-105','Port Area','600001',
+        20005,9005,'Rajaji Salai','Chennai','TN','600001'
+    ),
+    -- 6
+    (
+        'Kolkata East','CC6','Low','Kolkata East Office',
+        'West Bengal','East',0,1006,'CUST-106','Deepa Das',
+        'LOC-106','Salt Lake','700091',
+        20006,9006,'Sector V','Kolkata','WB','700091'
+    ),
+    -- 7
+    (
+        'Pune Info','CC7','Medium','Pune Info Park',
+        'Maharashtra','West',1,1007,'CUST-107','Vikram Joshi',
+        'LOC-107','Hinjewadi','411057',
+        20007,9007,'Phase 1 Rd','Pune','MH','411057'
+    ),
+    -- 8
+    (
+        'Jaipur Heritage','CC8','High','Jaipur Heritage Unit',
+        'Rajasthan','North',0,1008,'CUST-108','Anjali Rathore',
+        'LOC-108','MI Road','302001',
+        20008,9008,'Jawahar Circle','Jaipur','RJ','302001'
+    ),
+    -- 9
+    (
+        'Lucknow Central','CC9','Medium','Lucknow Central Branch',
+        'Uttar Pradesh','North',1,1009,'CUST-109','Rohan Singh',
+        'LOC-109','Hazratganj','226001',
+        20009,9009,'MG Road','Lucknow','UP','226001'
+    ),
+    -- 10
+    (
+        'Ahmedabad Retail','CC10','Low','Ahmedabad Retail Hub',
+        'Gujarat','West',0,1010,'CUST-110','Riya Patel',
+        'LOC-110','Navrangpura','380009',
+        20010,9010,'CG Road','Ahmedabad','GJ','380009'
+    ),
+    -- 11
+    (
+        'Chandigarh Sec17','CC11','Medium','Chandigarh Sector 17 Unit',
+        'Punjab','North',1,1011,'CUST-111','Gurpreet Kaur',
+        'LOC-111','Sector 17','160017',
+        20011,9011,'Madhya Marg','Chandigarh','PB','160017'
+    ),
+    -- 12
+    (
+        'Coimbatore Fac','CC12','High','Coimbatore Factory',
+        'Tamil Nadu','South',0,1012,'CUST-112','Arun Kumar',
+        'LOC-112','Peelamedu','641004',
+        20012,9012,'Avinashi Rd','Coimbatore','TN','641004'
+    ),
+    -- 13
+    (
+        'Nagpur Logistics','CC13','Low','Nagpur Logistics Center',
+        'Maharashtra','West',1,1013,'CUST-113','Neha Deshmukh',
+        'LOC-113','MIDC','440022',
+        20013,9013,'Hingna Rd','Nagpur','MH','440022'
+    ),
+    -- 14
+    (
+        'Bhopal Govt','CC14','Medium','Bhopal Govt Office',
+        'Madhya Pradesh','Central',0,1014,'CUST-114','Ravi Verma',
+        'LOC-114','MP Nagar','462011',
+        20014,9014,'Zone 1','Bhopal','MP','462011'
+    ),
+    -- 15
+    (
+        'Patna Regional','CC15','High','Patna Regional Center',
+        'Bihar','East',1,1015,'CUST-115','Swati Sinha',
+        'LOC-115','Exhibition Rd','800001',
+        20015,9015,'Fraser Rd','Patna','BR','800001'
+    ),
+    -- 16
+    (
+        'Guwahati Br','CC16','Low','Guwahati Branch Office',
+        'Assam','North East',0,1016,'CUST-116','Manas Baruah',
+        'LOC-116','GS Road','781005',
+        20016,9016,'Six Mile','Guwahati','AS','781005'
+    ),
+    -- 17
+    (
+        'Bhubaneswar HQ','CC17','Medium','Bhubaneswar Headquarters',
+        'Odisha','East',1,1017,'CUST-117','Smita Das',
+        'LOC-117','Janpath','751001',
+        20017,9017,'Master Canteen','Bhubaneswar','OD','751001'
+    ),
+    -- 18
+    (
+        'Dehradun Campus','CC18','High','Dehradun Campus Unit',
+        'Uttarakhand','North',0,1018,'CUST-118','Nikhil Rawat',
+        'LOC-118','Rajpur Road','248001',
+        20018,9018,'Clock Tower','Dehradun','UK','248001'
+    ),
+    -- 19
+    (
+        'Surat Textiles','CC19','Low','Surat Textiles Hub',
+        'Gujarat','West',1,1019,'CUST-119','Pooja Desai',
+        'LOC-119','Ring Road','395002',
+        20019,9019,'Adajan Rd','Surat','GJ','395002'
+    ),
+    -- 20
+    (
+        'Kochi Port','CC20','Medium','Kochi Port Facility',
+        'Kerala','South',0,1020,'CUST-120','Anoop Menon',
+        'LOC-120','Willingdon','682003',
+        20020,9020,'Port Rd','Kochi','KL','682003'
+    );

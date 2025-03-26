@@ -1,0 +1,23 @@
+CREATE TABLE employee_table(
+    first_name VARCHAR(40),
+    last_name VARCHAR(40),
+    employee_status VARCHAR(20),
+    date_hired DATE,
+    date_started DATE,
+    date_terminated DATE,
+    terminated_reason_last VARCHAR(60),
+    employee_id INT,
+    default_jobs_hr VARCHAR(40),
+    full_address VARCHAR(60),
+    primary_email VARCHAR(40),
+    performance_manager_name VARCHAR(20),
+    performance_manager_id INT,
+    secondary_email VARCHAR(20),
+    state VARCHAR(20),
+    region VARCHAR(20),
+    cell_phone VARCHAR(20),
+    work_phone VARCHAR(20)
+);
+
+
+DESCRIBE employee_table;

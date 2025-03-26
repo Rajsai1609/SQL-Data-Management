@@ -1,0 +1,22 @@
+CREATE TABLE cost_records_center(
+    name VARCHAR(40),
+    cost_abbr VARCHAR(40),
+    level ENUM('Low','Medium','High'),
+    cost_full_name VARCHAR(40),
+    state VARCHAR(40),
+    region VARCHAR(40),
+    exclude_alerts BOOLEAN,
+    system_id INT,
+    name_coustomer_number VARCHAR(40),
+    name_coustomer VARCHAR(40),
+    name_location_number VARCHAR(40),
+    name_location VARCHAR(40),
+    name_post VARCHAR(40),
+    external_id INT,
+    payroll_code INT,
+    address_1 VARCHAR(40),
+    city VARCHAR(40),
+    address_state VARCHAR(40),
+    zipcode VARCHAR(10)   
+);
+DESCRIBE cost_records_center;
